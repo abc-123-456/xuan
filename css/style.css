@@ -1,0 +1,59 @@
+.tkboxs {
+    width: 590px;
+    height: 710px;
+    position: relative;
+    overflow: hidden;
+    border: 5px solid yellow;
+}
+
+.tkboxs .tkbox {
+    width: 590px;
+    height: 530px;
+    /* display: flex; */
+    position: absolute;
+    top: 0;
+    transition: 5s linear;
+}
+
+.tkboxs .tk1 {
+    top: 0;
+}
+
+.tkboxs .tk2 {
+    top: 530px;
+}
+
+.tkboxs .tk3 {
+    top: 590px;
+}
+
+.tkboxs .tk4 {
+    top: 650px;
+}
+
+.tkboxs .tkbox .title {
+    /* width: 590px; */
+    height: 60px;
+    color: white;
+    font-size: 22px;
+    line-height: 56px;
+    padding-left: 250px;
+    /* padding: 19px 140px 0; */
+    cursor: pointer;
+}
+
+.tkboxs .tk1 .title {
+    background: rgb(0, 0, 127);
+}
+
+.tkboxs .tk2 .title {
+    background: rgb(238, 136, 0);
+}
+
+.tkboxs .tk3 .title {
+    background: rgb(126, 127, 0);
+}
+
+.tkboxs .tk4 .title {
+    background: rgb(35, 97, 173);
+}
